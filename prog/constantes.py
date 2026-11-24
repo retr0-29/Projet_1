@@ -1,0 +1,53 @@
+# constantes.py
+
+# Dimensions de la fenêtre
+LARGEUR_FENETRE = 1100
+HAUTEUR_FENETRE = 760
+
+# Couleurs générales
+COULEUR_FOND = "#F3F4F6"
+COULEUR_TEXTE = "#222222"
+COULEUR_BORDURE = "#333333"
+COULEUR_SELECTION = "#000000"
+
+COULEUR_BOUTON = "#426B9A"
+COULEUR_BOUTON_TEXTE = "#FFFFFF"
+
+# Palette des cartes
+COULEURS_CARTES = [
+    "#8C5725",
+    "#777F89",
+    "#5995CA",
+    "#CB7BCB",
+    "#54A34A",
+    "#E9A35C",
+    "#65BFC5",
+    "#B18BCC"
+]
+
+# Nombre de couleurs
+NB_COULEURS_MIN = 2
+NB_COULEURS_MAX = 8
+NB_COULEURS_DEFAUT = 5
+
+# Zone du plateau
+ZONE_GRILLE_X = 30
+ZONE_GRILLE_Y = 130
+
+LARGEUR_GRILLE_MAX = 630
+HAUTEUR_GRILLE_MAX = 550
+
+ESPACE_CARTES = 7
+
+# Boutons du menu
+BOUTON_EDITER_MENU = (330, 340, 770, 425)
+BOUTON_QUITTER_MENU = (330, 445, 770, 530)
+
+# Boutons du choix des couleurs
+BOUTON_MOINS = (350, 370, 470, 465)
+BOUTON_PLUS = (630, 370, 750, 465)
+BOUTON_VALIDER = (350, 520, 750, 600)
+BOUTON_RETOUR_CHOIX = (350, 625, 750, 690)
+
+# Bouton de retour depuis le plateau
+BOUTON_RETOUR_PLATEAU = (740, 630, 1040, 690)
